@@ -1,0 +1,5 @@
+C:\Users\Scott\Desktop\ShutdownManager.exe
+C:\Users\Scott\Desktop\ShutdownManager.dll
+C:\Users\Scott\Desktop\ShutdownManager.deps.json
+C:\Users\Scott\Desktop\ShutdownManager.runtimeconfig.json
+C:\Users\Scott\Desktop\ShutdownManager.pdb

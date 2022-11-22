@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>icons\power-on.ico</ApplicationIcon>
+    <StartupObject>ShutdownManager.App</StartupObject>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icons\power-on.ico" />
+  </ItemGroup>
+
+<PropertyGroup>
+  <EnableDefaultApplicationDefinition>false</EnableDefaultApplicationDefinition>
+  <Title>Shutdown Manager</Title>
+  <Product>Shutdown Manager</Product>
+</PropertyGroup>
+</Project>
